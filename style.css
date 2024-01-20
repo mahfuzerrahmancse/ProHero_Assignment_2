@@ -1,0 +1,154 @@
+body {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    /* background: gray; */
+}
+
+/* header part */
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    gap: 10px;
+}
+.left h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.left span {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.right ul  {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+.right  ul li {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.right span {
+    color: #FF5400;
+}
+
+/* banner part */
+.banner {
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background-image: url("./images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+}
+.banner h2 {
+    margin: 10px 0 0 0;
+    padding: 20px 0 0 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner p {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.banner_field {
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.f_1st {
+    width: 170px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f_1st span  {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.f_1st span input{    
+    border: none;
+}
+
+.f_2nd span{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    gap: none;
+    
+}
+.f_2nd input {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    
+    
+}
+.f_2nd img {
+    width: 24px;
+    height: 24px;
+    
+    flex-shrink: 0;
+}

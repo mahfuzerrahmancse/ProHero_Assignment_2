@@ -1,7 +1,7 @@
 body {
     margin: 0 10px 0 10px;
     padding: 0 10px 0 10px;
-    /* background: gray; */
+    background: rgba(128, 128, 128, 0.377);
 }
 
 /* header part */
@@ -57,7 +57,7 @@ nav {
     color: #FF5400;
 }
 
-/* banner part */
+/* banner */
 .banner {
     text-align: center;
     width: 100%;
@@ -151,4 +151,51 @@ nav {
     height: 24px;
     
     flex-shrink: 0;
+}
+
+/* main part */
+/* section1 */
+.sec_1{
+    display: flex;
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    width: 100%;
+    
+}
+.sec_1_p1 {
+    width: 50%;
+}
+.sec_1_p2 {
+    width: 50%;
+}
+
+/* section2 */
+
+/* section3 */
+.sec_3{
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+}
+.sec_3_p1 {
+    text-align: center;
+}
+.sec_3_p2 {
+    display: flex;
+}
+.sec_3_p3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* section last */
+.sec_last {
+    display: flex;
+    gap: 10px;
+}
+
+/* footer part */
+.foot {
+    text-align: center;
 }

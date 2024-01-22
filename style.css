@@ -1,7 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-   
+ body {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+    /* background: rgba(128, 128, 128, 0.377); */
 }
 
 /* header part */
@@ -426,7 +426,7 @@ nav {
 
 /* footer part */
 .foot {
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 10px 0 0 0;
     text-align: center;
     width: 100%;

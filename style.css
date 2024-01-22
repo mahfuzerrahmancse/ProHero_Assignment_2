@@ -1,6 +1,6 @@
  body {
-    margin: 0 10px 0 10px;
-    padding: 0 10px 0 10px;
+    margin: 0;
+    padding: 0;
     /* background: rgba(128, 128, 128, 0.377); */
 }
 
@@ -8,7 +8,7 @@
 .container {
     margin: 0 10px 0 10px;
     padding: 0 10px 0 10px;
-    /* background: rgba(128, 128, 128, 0.377); */
+    background: rgba(128, 128, 128, 0.377);
 }
 
 /* navbar */
@@ -418,11 +418,53 @@ nav {
     line-height: 26px; 
 }
 
+
 /* section last */
 .sec_last {
     display: flex;
     gap: 10px;
 }
+.sec_last_p1 {
+    margin: 5px;
+    padding: 5px;
+    width: 52%;
+    height: 500px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.sec_last_p1 h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sec_last_p1 p {
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.sec_last_p1 hr {
+    width: 80%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.sec_last_p1 hr:hover {
+    background: blue;
+}
+.sec_last_p1 input, button {
+    
+    margin: 5px;
+    /* display: grid;
+    grid-template-columns: 1fr; */
+}
+
 
 /* footer part */
 .foot {
